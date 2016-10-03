@@ -1,464 +1,749 @@
 <!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-
 <!DOCTYPE html>
 <html>
 <head>
 <title>Stella Ngugi</title>
+<!--mobile apps-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Curriculum vitae Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<meta name="keywords" content="Sprint Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link rel="stylesheet" type="text/css" href="css/component.css" />
 <link rel="stylesheet" href="css/swipebox.css">
-<link href="css/font-awesome.min.css" rel='stylesheet' type='text/css' />	
-<!--//Custom Theme files-->
-<!--web-font-->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
-<!--//web-font-->
-<script src="js/jquery.min.js"></script>
+
+<!-- //Custom Theme files -->	
+<!-- js -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!-- //js --><!-- swipe box js -->
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+
+<!--web-fonts-->
+	<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!-- start-smoth-scrolling-->
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
 </head>
 <body>
-<!--banner-->
-<div class="banner">
-	<div class="container">
-		<div class="col-md-3 b-part1">
-			<img src="images/1.jpg" alt=" " />
-			<h1>Stella Ngugi</h1>
-			<h2>Software Entrepreneur</h2>
-		</div>
-		<div class="col-md-3 b-part2">
-			<h3>Contact</h3>
-			<h4><a href="mailto:info@example.com">stellangugi4@gmail.com</a></h4>
-			<h4 class="agile">+233 262 660 670</h4>
-			<h4>Accra, Ghana</h4>
-		</div>
-		<div class="col-md-3 b-part3">
-			<h3>Follow</h3>
-			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-		
-		</div>
-		<div class="col-md-3 b-part4">
-			<h3>Meltwater Entrepreneurship School of Technology</h3>
-			<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-			<h4>Entrepreneur in Training</h4>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!--//banner-->
+	<!-- main content start-->
+     <!--start-home-->
+	<div id="home" class="header">
+		<div class="header-top">
+				<!-- Navbar -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
 
-<!--about-->
-<div class="about">
-	<div class="container">
-		<h3>About Me</h3>
-		<label class="line"></label>
-		<img src="images/1.jpg" alt=" " />
-		<p>Stella is passionate about boosting performance and competitiveness of individuals and organizations through innovations that will  bring about positive social, economic and leadership change in Africa. Working together with other commited, creative and driven team mates, my mission is to promote technological empowerment of society as a path to economic and social development. <strong> Africa is changing. I am part of the transition team. </strong></p>
-	</div>
-</div>
-<!--//about-->
-
-
-<!--skills-->
-<div class="skills">
-	<div class="container">
-		<h3>My Skills</h3>
-		<label class="line"></label>
-			<div class="col-md-6 skills-left">
-				<h4>Education</h4>
-				<p>A graduate of Moi University with a Bachelor's Degree in Human Resources Management plus a National Higher Diploma in Human Resources Management from the College of Human Resources Management Kenya.</p> 	
-			</div>
-			<div class="col-md-6 skills-right">
-				<div class="bar_group">
-					<div class='bar_group__bar thin' label='HTML & CSS' show_values='true' tooltip='true' value='350'></div>
-					<div class='bar_group__bar thin' label='Graphic Design' show_values='true' tooltip='true' value='222'></div>
-					<div class='bar_group__bar thin' label='Design Thinking' show_values='true' tooltip='true' value='475'></div>
-					<div class='bar_group__bar thin' label='Business Development' show_values='true' tooltip='true' value='286'></div>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
-				<script src="js/bars.js"></script>
+
+				<div class="collapse navbar-collapse navbar-right" id="navbar">
+					<div class="top-nav">
+
+						<a href="#about" class="hover-effect scroll">
+								<span>
+									<span>ABOUT</span>
+									<span>ABOUT</span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="#service" class="hover-effect scroll">
+								<span>
+									<span>AWARDS</span>
+									<span>AWARDS</span>
+									<span></span>
+								</span>
+							</a>
+
+						<a href="#staff" class="hover-effect scroll">
+								<span>
+									<span>CAREER</span>
+									<span>CAREER</span>
+									<span></span>
+								</span>
+							</a>
+							<a href="#news" class="hover-effect scroll">
+								<span>
+									<span>MY FUEL</span>
+									<span>MY FUEL</span>
+									<span></span>
+								</span>
+							</a>
+						<a href="#gallery" class="hover-effect scroll">
+								<span>
+									<span>VISION</span>
+									<span>VISION</span>
+									<span></span>
+								</span>
+							</a>
+							<a href="#contact" class="hover-effect scroll">
+								<span>
+									<span>CONTACT</span>
+									<span>CONTACT</span>
+									<span></span>
+								</span>
+							</a>
+
+
+					</div>
+				</div>
+
+			</div>
+		</nav>
+		</div>
+		<!-- //Navbar -->
+	<!--End-top-nav-script-->
+		<!--//end-header-->
+		<div class="clearfix"></div>
+			<div class="banner-w3-info">
+					 <div class="logo">
+						<a class="link link--surinami" href="index.html"><span data-letters-l="ROCK" data-letters-r="STAR">Stella Ngugi</span></a>
+					 </div>
+					 <p>There's no innovation to be done in heaven. Give yourself to humanity now-Stella </p>
+					 <div class="more">
+					    <a href="#" class="hvr-shutter-in-vertical" data-toggle="modal" data-target="#myModal">Read More<span class="glyphicon glyphicon-arrow-right"></span></a>
+				    </div>
+					  <ul class="social-icons">
+							<li><a href="#"> </a></li>
+							<li><a href="#" class="fb"> </a></li>
+							<li><a href="#" class="in"> </a></li>
+							<li><a href="#" class="dott"> </a></li>
+						</ul>
+				</div>
+				
+	    </div>
+	  <!--//end-banner-->
+        <!--modal-video-->
+				<!--<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4>Stella</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+							</div>
+							<section>
+								<!--<div class="modal-body">
+									<p>Ut enim ad minima veniam, quis nostrum 
+										exercitationem ullam corporis suscipit laboriosam, 
+										nisi ut aliquid ex ea commodi consequatur? Quis autem 
+										vel eum iure reprehenderit qui in ea voluptate velit 
+										esse quam nihil molestiae consequatur, vel illum qui,Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat 
+										dolorem eum fugiat quo voluptas nulla pariatur.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
+										<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+											esse quam nihil molestiae consequatur.</i></p>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div-->
+     <!-- app-->
+			<div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									 <form class="retire">
+									<div class="styled-input">
+									  <input type="text" required="">
+									  <label>Your Name</label>
+									  <span></span> </div>
+									<div class="styled-input">
+									  <input type="email" required="">
+									  <label>Your Email</label>
+									  <span></span> </div>
+									<div class="styled-input">
+									  <textarea required=""></textarea>
+									  <label>Your Message</label>
+									  <span></span> </div>
+										<div class="send">
+											<input type="submit" value="SUBMIT">
+										</div>
+						     </form>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+<div id="about" class="banner-bottom">
+	<div class="container">
+	    <div class="inner-w3">
+		   <h3 class="title">Education <span></span></h3>
+		</div>
+		<div class="adt_grids">
+			<div class="col-md-5 about_left wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+				<h2 class="tittle">A COMPANY IS AS <span>GREAT</span> AS ITS PEOPLE</h2>
+										<h4>HUMAN RESOURCE PROFESSIONAL</h4>
+										<p>A graduate of Moi University with a Bachelor's Degree in Human Resources Management plus a National Higher Diploma in Human Resources Management from the College of Human Resources Management Kenya. </p>
+										<div class="more">
+									<a href="#" class="hvr-shutter-in-vertical" data-toggle="modal" data-target="#myModal">Read More<span class="glyphicon glyphicon-arrow-right"></span></a>
+									</div>
+
+
+			</div>
+			<div class="col-md-7 about_right wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<div class="creative">
+					<h4>I LOVE LEARNING</h4>
+					<p>Google exists to show you how foolish you are.-Stella</p>
+					<div class="progress-gds">
+						<h5>Human Resource / 60%</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+
+							</div>
+						</div>
+						<h5>Graphic Design/ 45%</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+							</div>
+						</div>
+						<h5>Software Development / 15%</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+							</div>
+						</div>
+						
+					</div>
+				</div>
 			</div>
 			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //banner-bottom -->
+ <!--/features-->
+		    <div class="features" id="feature">
+			  <div class="container">
+			     <div class="inner-w3 w3l">
+					<h3 class="title two">MY LIFE IN MARS<span class="two"></span></h3>
+					</div>
+	           <div class="col-md-5 features-left">
+						     <div class="trainer-gent-inner">
+					 <div class="features-text">
+					 <h4>Blank Sheet</h4>
+					 <p>I have an imaginary rockstar life in my head!</p>
+					 
+					 </div>
+				 </div>
+			   </div>
+			   <div class="col-md-7 features-right">
+			    <ul class="workout-exercises">
+					<li>
+                     <h4>Be the girlfriend of Jason Statham! </h4><p>And drive in his Audi...</p></li>
+					<li>
+                      <h4> Be First Lady of Kenya for a month. </h4><p>And see life inside State House and try help people ...</p>
+				    </li>
+					<li>
+                       <h4>Be part of a Band</h4><p>Learn how to play atleast 3 musical instruments by 2017 ...</p>
+					</li>
+					 </ul>
+			   </div>
+			    <div class="clearfix"></div>
+			</div>
+		</div>
+		<!--//features-->
+		<!--service-->
+	<div class="service" id="service">
+	<div class="inner-w3 w3l">
+					<h3 class="title">Awards <span class="two"></span></h3>
+					</div>
+		<div class="col-md-6 services-left">
+		  <div class="agile-info">
+		  <div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</div>
+		    <h4>Meltwater School of Entrepreneurship Technology</h4>
+			<p>Software Entrepreneurship</p>
+		  </div>
 			
+		</div>
+		<div class="col-md-6 services-right">
+			<div class="services-grid-a">
+				 <div class="agile-info">
+				 <div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</div>
+		    <h4>Young African Leaders Initiative</h4>
+			<p>Business & Entrepreneurship Cohort 3 </p>
+		  </div>
+			</div>	
+			<div class="services-grid-b">		
+				  <div class="agile-info">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</div>
+
+					<h4>Global Business Labs</h4>
+					<p>Business Accelerator</p>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
 	</div>
+	<!--//service-->
+<!--//team -->
+<div id="staff" class="reviews">
+		   <div class="container">
+			<div class="inner-w3">
+					<h3 class="title">My Boring Life Before <span></span></h3>
+				</div>
+			     <div class="staff-section">
+				    <div class="col-md-3 staff-grid  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+				          <div class="view fifth-effect">
+							 <a href="index.html" title="Full Image"><img src="images/t1.jpg" /></a>
+							 <div class="mask"></div>
+						  </div>
+							<h4>African Wildlife Foundation</h4>
+						  <p>Wildlife Conservation Multinational.</p>
+							<ul class="social-icons3">
+								<li><a href="#"> </a></li>
+								<li><a href="#" class="fb"> </a></li>
+								<li><a href="#" class="in"> </a></li>
+								<li><a href="#" class="dott2"> </a></li>
+							</ul>						  
+				     </div>
+					  <div class="col-md-3 staff-grid animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+				         <div class="view fifth-effect">
+							 <a href="index.html" title="Full Image"><img src="images/t2.jpg" /></a>
+							 <div class="mask"></div>
+						</div>  
+						<h4>Safaricom Limited</h4>
+						  <p>East Africa's Biggest Telecomms Company.</p>
+							<ul class="social-icons3">
+								<li><a href="#"> </a></li>
+								<li><a href="#" class="fb"> </a></li>
+								<li><a href="#" class="in"> </a></li>
+								<li><a href="#" class="dott2"> </a></li>
+							</ul>						
+				     </div>
+					 <div class="col-md-3 staff-grid animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+				          <div class="view fifth-effect">
+							 <a href="index.html" title="Full Image"><img src="images/t3.jpg" /></a>
+							 <div class="mask"></div>
+						  </div>
+						  <h4>East Africa Breweries Limited</h4>
+						  <p>Subsidiary of Diageo Plc.</p>
+							<ul class="social-icons3">
+								<li><a href="#"> </a></li>
+								<li><a href="#" class="fb"> </a></li>
+								<li><a href="#" class="in"> </a></li>
+								<li><a href="#" class="dott2"> </a></li>
+							</ul>
+						  
+				     </div>
+					  <div class="col-md-3 staff-grid  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+				          <div class="view fifth-effect">
+							 <a href="index.html" title="Full Image"><img src="images/t4.jpg" /></a>
+							 <div class="mask"></div>
+						  </div>
+							<h4>Kenya Maritime Authority</h4>
+						  <p>Maritime Management in Kenya.</p>
+							<ul class="social-icons3">
+								<li><a href="#"> </a></li>
+								<li><a href="#" class="fb"> </a></li>
+								<li><a href="#" class="in"> </a></li>
+								<li><a href="#" class="dott2"> </a></li>
+							</ul>						  
+				     </div>
+					   <div class="clearfix"></div>
+				 </div>
+	      </div>
+	</div>
+<!--//team -->
+<!---->
+<div class="content-bottom" id="news">
+	<div class="inner-w3 agl">
+					<h3 class="title">My Fuel <span></span></h3>
+				</div>
+		<div class="content-in">
+            <div class="port effect-1">
+                <div class="image-box">
+                   <img src="images/g7.jpg" alt="" class="img-responsive">
+               </div>
+                <div class="text-desc">
+                    <h6>Nelson Mandela</h6>
+                    <p>May your choices reflect your hopes not your fears.</p>
+					 <h5>HOPE</h5>
+                </div>
+           </div>
+         </div>
+		<div class="content-in">
+            <div class="port effect-1">
+                <div class="image-box">
+                    <img src="images/g1.jpg" alt="" class="img-responsive">
+                </div>
+				<div class="text-desc">
+                    <h6>MOHAMMED ALI</h6>
+                    <p>To be a great champion, you must believe you are the best. If you're not, pretend you are.</p>
+					<h5>AMBITION</h5>					
+                </div>
+            </div>
+        </div>
+		<div class="content-in">
+            <div class="port effect-1">
+                <div class="image-box">
+                    <img src="images/g4.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="text-desc">
+                    <h6>RICHARD BRANSON</h6>
+                    <p>If you're dreams don't scare you, then they aren't big enough.</p>	
+					<h5>VISION</h5>
+                </div>
+            </div>
+        </div>
+		<div class="content-in">
+            <div class="port effect-1">
+                <div class="image-box">
+                    <img src="images/g6.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="text-desc">
+                    <h6>MAHATMA GHANDI</h6>
+                    <p>Be the change that you want to see in the world.</p>	<h5>HUMANITY</h5>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
 </div>
-<!--/skills-->
-
-<!-- download-->
-
-<!-- //download -->
-
-<!-- projects -->
-<div class="projects">
+<!-- gallery -->
+<div id="gallery" class="gallery">
 	<div class="container">
-		<div class="project-grids">
-			<div class="cycle">
-				<span> </span>
+	 <div class="inner-w3">
+		<h3 class="title"> Bucket List <span></span></h3>
+	 </div>
+		<div class="gallery_gds">
+			<ul class="simplefilter wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="1">Social</li>
+                <li data-filter="2">Fun</li>
+                <li data-filter="3">Global</li>
+                <li data-filter="4">Africa</li>
+            </ul>
+     
+            <div class="filtr-container wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                <div class=" col-md-4 filtr-item" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/g9.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">Service</div>			
+									<div class="line"></div>			
+									<div class="headline">Helping the less fortunate</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img src="images/g9.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/g21.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">UN Global Goals</div>			
+									<div class="line"></div>			
+									<div class="headline">Sustainable Cities</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img src="images/g21.jpg" alt=" " /></div>
+						</div>
+					</a>
+
+                </div>
+                <div class="col-md-4 filtr-item" data-category="1, 4" data-sort="City wonders">
+                    <a href="images/f2.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">Life under Water</div>			
+									<div class="line"></div>			
+									<div class="headline">Maintaining aqualife</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img src="images/f2.jpg" alt=" " /></div>
+						</div>
+					</a>
+
+                </div>
+                <div class=" col-md-4 filtr-item" data-category="3" data-sort="In production">
+                    <a href="images/g3_2.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">World Tour</div>			
+									<div class="line"></div>			
+									<div class="headline">Rockstar Life</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img src="images/g3_2.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item" data-category="3, 4" data-sort="Industrial site">
+                    <a href="images/g4_2.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">Wildlife Activist</div>			
+									<div class="line"></div>			
+									<div class="headline">Ants to Elephants</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img  src="images/g4_2.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item" data-category="2, 4" data-sort="Peaceful lake">
+                    <a href="images/g5_2.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">Preserve Culture</div>			
+									<div class="line"></div>			
+									<div class="headline">African Identity</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img  src="images/g5_2.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+                <div class="col-md-4  filtr-item" data-category="1, 5" data-sort="City lights">
+                    <a href="images/g81.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">Disney Africa</div>			
+									<div class="line"></div>			
+									<div class="headline">Bring happiness to our kids</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img  src="images/g81.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item" data-category="2, 4" data-sort="Dreamhouse">
+                    <a href="images/g7_2.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">Disruptive Software</div>			
+									<div class="line"></div>			
+									<div class="headline">Useful Technologies</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img src="images/g7_2.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+				<div class="col-md-4 filtr-item" data-category="3" data-sort="Dreamhouse">
+                    <a href="images/g8_2.jpg" class="b-link-stripe b-animate-go  swipebox">
+						<div class="item item-type-double">
+							<div class="item-hover">
+								<div class="item-info">
+									<div class="date">African Innovation School</div>			
+									<div class="line"></div>			
+									<div class="headline">Design Thinking</div>
+									<div class="line"></div>
+								</div>
+								<div class="mask"></div>
+							</div>
+							<div class="item-img"><img  src="images/g8_2.jpg" alt=" " /></div>
+						</div>
+					</a>
+                </div>
+               <div class="clearfix"> </div>
+            </div>
+		</div>
+	</div>
+	</div>
+    <!-- Include jQuery & Filterizr -->
+    
+    <script src="js/jquery.filterizr.js"></script>
+    <script src="js/controls.js"></script>
+
+    <!-- Kick off Filterizr -->
+    <script type="text/javascript">
+        $(function() {
+            //Initialize filterizr with default options
+            $('.filtr-container').filterizr();
+        });
+    </script>
+	<!--//gallery-->
+	<!---->
+
+<!-- //contact -->
+<!-- footer -->
+<div class="footer wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="0.2s">
+	<div class="container">
+	<div class="inner-w3 agile">
+	<h3 class="title two">Join Me <span class="two"></span></h3>
+	</div>
+		<div class="mail_us">
+			<div class="col-md-5 mail_left">
+				<img src="images/lady.jpg" alt=" "/>
 			</div>
-			<div class="project-grid total-project">
-				<p>33%</p>
-				<p>Software</p>
-				<span> <i class="p-icon"> </i></span>
+			<div class="col-md-7 mail_right">
+				<form action="#" method="post">
+					<input type="text" placeholder="Name" required="">
+					<input type="email" placeholder="Email" required="">
+					<input type="text" placeholder="Mobile number" required="">
+					<textarea placeholder="Message...." required=""></textarea>
+					<input type="submit" value="Send">
+					
+				</form>
 			</div>
-			<div class="project-grid clientsgrid">
-				<div>
-					<p>33%</p>
-					<p>Business</p>
+			<div class="clearfix"></div>
+		</div>
+		<div class="footer_top text-center">
+		<div class="main-nav">
+				  <span class="menu"></span>
+				      <div class="top-menu">
+							<a href="#about" class="hover-effect scroll two">
+								<span>
+									<span>ABOUT</span>
+									<span>ABOUT</span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="#service" class="hover-effect scroll two">
+								<span>
+									<span>AWARDS</span>
+									<span>AWARDS</span>
+									<span></span>
+								</span>
+							</a>
+						<a href="#staff" class="hover-effect scroll two">
+								<span>
+									<span>MY FUEL</span>
+									<span>MY FUEL</span>
+									<span></span>
+								</span>
+							</a>
+							<a href="#news" class="hover-effect scroll two">
+								<span>
+									<span>CAREER</span>
+									<span>CAREER</span>
+									<span></span>
+								</span>
+							</a>
+							<a href="#gallery" class="hover-effect scroll two">
+								<span>
+									<span>VISION</span>
+									<span>VISION</span>
+									<span></span>
+								</span>
+							</a>
+
+							<a href="#contact" class="hover-effect scroll two">
+								<span>
+									<span>CONTACT</span>
+									<span>CONTACT</span>
+									<span></span>
+								</span>
+							</a>
+
 				</div>
-				<span> <i class="p-icon"> </i></span>
-			</div>
-			<div class="project-grid people-grid">
-				<div>
-					<p>33%</p>
-					<p>Social</p>
-				</div>
-				<span> <i class="p-icon"> </i></span>
-			</div>
-			<div class="clearfix"> </div>
+             </div>
+		</div>
+		<div class="copy_right text-center">
+			<p> &copy; 2016 Stella Ngugi. All Rights Reserved | </p>
+			 <ul class="social-icons two">
+							<li><a href="#"> </a></li>
+							<li><a href="#" class="fb"> </a></li>
+							<li><a href="#" class="in"> </a></li>
+							<li><a href="#" class="dott"> </a></li>
+						</ul>
 		</div>
 	</div>
 </div>
-<!-- //projects -->
-		
-		
-<!--portfolio-->
-<div id="portfolio" class="portfolio">
-		<div class="container">
-			<h3>My Bucketlist</h3>
-			<label class="line"></label>
-			<div class="sap_tabs">			
-				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
-						<li class="resp-tab-item"><span>All</span></li>
-						<li class="resp-tab-item"><span>Fun</span></li>
-						<li class="resp-tab-item"><span>Global</span></li>
-						<li class="resp-tab-item"><span>Social</span></li>				
-					</ul>	
-					<div class="clearfix"> </div>	
-					<div class="resp-tabs-container">
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids grid first">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
-										<a href="images/g1.jpg" class="swipebox" title="To do my part towards achieving the Un Sustainable Goals for 2016">
-											<img src="images/g1.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>UN Global Goals</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".7s">
-										<a href="images/g2.jpg" class="swipebox" title="Educate people on importance of protecting water and life under water.">
-											<img src="images/g2.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Life under water</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".9s">
-										<a href="images/g3.jpg" class="swipebox" title="Visit over 70% countries in the world by 2030">
-											<img src="images/g3.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>World tour</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid grid-mdl">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
-										<a href="images/g4.jpg" class="swipebox" title="Protect wildlife and wildlands in Africa">
+<!-- //footer -->
+
+<!-- //footer -->
+	<!--//main content start-->
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
 										
-											<img src="images/g4.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Protect Earth</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid grid-mdl">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".7s">
-										<a href="images/g5.jpg" class="swipebox" title="Maintain some of best practices in our culture and preserve our heritage">
-											<img src="images/g5.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Preserve Traditions</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid grid-mdl">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".9s">
-										<a href="images/g6.jpg" class="swipebox" title="Build Disney Africa and the largest fun city in Africa that will host Tomorrowland">
-											<img src="images/g6.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Disney Africa</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".5s">
-										<a href="images/g7.jpg" class="swipebox" title="Build a software company that will work towards creating disruptive technologies in Africa for Africa.">
-											<img src="images/g7.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Disruptive Software</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".7s">
-										<a href="images/g8.jpg" class="swipebox" title="Build an innovation school to teach companies and individuals principles of innovation.">
-											<img src="images/g8.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Africa Innovation School</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid last">
-									<div class="effect1 wow fadeInUp animated" data-wow-delay=".9s">
-										<a href="images/g9.jpg" class="swipebox" title="Serve my fellow man and the disadvantaged any way i can">
-											<img src="images/g9.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Service</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g1.jpg" class="swipebox" title="To do my part towards achieving the Un Sustainable Goals for 2016">
-											<img src="images/g1.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>UN Global Goals</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g4.jpg" class="swipebox" title="Educate people on importance of protecting water and life under water.">
-											<img src="images/g4.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Life under water</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g5.jpg" class="swipebox" title="Visit over 70% countries in the world by 2030">
-											<img src="images/g5.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>World Tour</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g3.jpg" class="swipebox" title="Protect wildlife and wildlands in Africa">
-											<img src="images/g3.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Protect Earth</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g6.jpg" class="swipebox" title="Maintain some of best practices in our culture and preserve our heritage">
-											<img src="images/g6.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Preserve Traditions</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g9.jpg" class="swipebox" title="Build Disney Africa and the largest fun city in Africa that will host Tomorrowland">
-											<img src="images/g9.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Disney Africa</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g9.jpg" class="swipebox" title="Build a software company that will work towards creating disruptive technologies in Africa for Africa.">
-											<img src="images/g9.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Disruptive Software</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g1.jpg" class="swipebox" title="Build an innovation school to teach companies and individuals principles of innovation.">
-											<img src="images/g1.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Africa Innovation School</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids grid">
-									<div class="effect1">
-										<a href="images/g5.jpg" class="swipebox" title="Serve my fellow man and the disadvantaged any way i can">
-											<img src="images/g5.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<p>Serve</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--ResponsiveTabs-->
-			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-			<script type="text/javascript">
-				$(document).ready(function () {
-					$('#horizontalTab').easyResponsiveTabs({
-						type: 'default', //Types: default, vertical, accordion           
-						width: 'auto', //auto or any width like 600px
-						fit: true   // 100% fit in a container
-					});
-				});		
-			</script>
-			<!--//ResponsiveTabs-->
-			<!-- swipe box js -->
-			<script src="js/jquery.swipebox.min.js"></script> 
-				<script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-			</script>
-			<!-- //swipe box js -->
-		</div>
-	</div>
-<!--//portfolio-->
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- //for bootstrap working -->
+<script src="js/bootstrap.js"></script>
 
 
-<!-- blog -->
-	<div class="blog">
-		<div class="container">
-			<h3>Fellowship</h3>
-			<label class="line"></label>
-			<div class="blog-grids">
-				<div class="col-md-6 blog-left">
-					<div class="col-md-3 agile1">
-						<h5>11</h5>
-						<h6>Jan-2016</h6>
-						<i class="fa fa-plane" aria-hidden="true"></i>
-						<a href="#"><h6 class="spcl">Nairobi </h6></a>
-						<i class="fa fa-eye" aria-hidden="true"></i>
-						<a href="#"><h6 class="spcl">Business</h6></a>
-					</div>
-					<div class="col-md-9 agile2">
-						<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/b1.jpg" alt="" /></a>
-						<a href="#" data-toggle="modal" data-target="#myModal"><h4>Global Business Labs</h4></a>
-						<p>Global Business Labs is based on one of Europe’s leading business accelerators at the Stockholm School of Economics.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="col-md-6 blog-right">
-					<div class="col-md-3 agile1">
-						<h5>10</h5>
-						<h6>March-2016</h6>
-						<i class="fa fa-plane" aria-hidden="true"></i>
-						<a href="#"><h6 class="spcl">Nairobi</h6></a>
-						<i class="fa fa-eye" aria-hidden="true"></i>
-						<a href="#"><h6 class="spcl">Business</h6></A>
-					</div>
-					<div class="col-md-9 agile2">
-						<a href="#" data-toggle="modal" data-target="#myModal2"><img src="images/b2.jpg" alt="" /></a>
-						<a href="#" data-toggle="modal" data-target="#myModal2"><h4>Young African Leaders Initiative</h4></a>
-						<p>The Young African Leaders Initiative (YALI) is a signature effort to invest in the next generation of African leaders.President Obama launched YALI in 2010 to support young African leaders as they spur growth and prosperity, strengthen democratic governance, and enhance peace and security across Africa.</p>
-					</div>
-					<div class="clearfix"></div>				
-				</div>
-				<div  class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-<!-- //blog -->
- 
- 
-		</div>
-	</div> 
-</div>
-<!--contact-->
-<div class="contact">
-	<div class="container">
-		<h3>Contact</h3>
-		<label class="line"></label>
-		<div class="col-md-4 c-w3l">
-			<i class="fa fa-map-marker" aria-hidden="true"></i>
-			<h4>Accra, Ghana</h4>
-			<h4>Mombasa, kenya</h4>
-		</div>
-		<div class="col-md-4 c-w3l c-mail">
-			<i class="fa fa-envelope" aria-hidden="true"></i>
-			<h4><a href="mailto:info@example.com">stellangugi4@gmail.com</a></h4>
-			<h4><a href="mailto:info@example.com">stellangugi@yahoo.com</a></h4>
-		</div>
-		<div class="col-md-4 c-w3l c-phn">
-			<i class="fa fa-phone" aria-hidden="true"></i>
-			<h4>+254 716 808 880</h4>
-			<h4>+233 262 660 670</h4>
-		</div>
-		<div class="clearfix"></div>
-		
-	</div>
-</div>
-<!--//contact-->
+<!-- //for bootstrap working -->
 
 
-<!--footer-->
-<div class="footer-agileinfo">
-	<p> &copy; 2016 Curriculum vitae. All Rights Reserved | Stella Ngugi <a href="http://meltwater.org">MEST</a></p>
-</div>
-<!--//footer-->
-<!--common js-->
-
-<script src="js/bootstrap.min.js"></script>
-<!--//common js-->
 </body>
 </html>
